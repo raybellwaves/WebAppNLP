@@ -7,3 +7,5 @@ https://github.com/rasbt/python-machine-learning-book-2nd-edition/tree/master/co
 https://github.com/rasbt/python-machine-learning-book-2nd-edition/blob/master/code/ch08/ch08.py
 
 https://github.com/rasbt/python-machine-learning-book-2nd-edition/blob/master/code/ch08/ch08.ipynb
+
+https://github.com/rasbt/python-machine-learning-book-2nd-edition/blob/master/code/ch09/ch09.ipynb
