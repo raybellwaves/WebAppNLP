@@ -1,0 +1,15 @@
+body{
+	width:800px;
+}
+
+.button{
+	padding-top:20px;
+}
+
+.positive{
+    color:green;
+}
+
+.negative{
+    color:red;
+}

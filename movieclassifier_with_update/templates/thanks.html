@@ -1,0 +1,27 @@
+
+<!doctype html>
+<html>
+  <head>
+    <title>Ray's Movie Classification</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body>
+
+<h3>Thank you for your feedback!</h3>
+<h3>Your input helps improve my predictions.</h3>
+
+<p>To test the improvement: copy and paste your review below and submit it multiple times. Note how the probability of the prediction changes.</p>
+
+<h3>Your movie review:</h3>
+<div>{{ content }}</div>
+
+<h3> </h3>
+
+<div id='button'>
+	  <form action="/">
+	    <input type=submit value='Submit another review'>
+	  </form>
+</div>
+
+  </body>
+</html>

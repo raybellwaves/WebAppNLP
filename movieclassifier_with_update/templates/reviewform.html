@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+  <title>Ray's Movie Classification</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+
+  <body>
+    <h2>Enter a review for a movie you recently saw.</h2>
+    <h2>I will predict if you liked or disliked the movie:</h2>
+
+    {% from "_formhelpers.html" import render_field %}
+
+    <form method=post action="/results">
+      <dl>
+	      {{ render_field(form.moviereview, cols='50', rows='10') }}
+      </dl>
+      <div>
+	      <input type=submit value='Submit review' name='submit_btn'>
+      </div>
+    </form>
+
+    <h1> </h1>
+
+    <p><i>You can find out how I work 
+        <a href="https://sites.google.com/view/raybellwaves/blog/a-web-application-to-determine-sentiment-from-movie-reviews">here</a>.</i></p>
+
+    <p><i>My code can be obtained <a href="https://github.com/raybellwaves/WebAppNLP">here</a>.</i></p>
+  </body>
+
+</html>
